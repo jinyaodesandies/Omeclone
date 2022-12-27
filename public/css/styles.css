@@ -74,6 +74,7 @@
 .sty {
   text-align: center;
   text-shadow: 0 0 10px whitesmoke;
+
 }
 
 #msgs .msg a {
@@ -88,9 +89,10 @@
 .add {
   margin: 40px;
   padding: 0px;
-  font-size: 20px;
+  font-size: 21px;
   margin-bottom: 0;
-  color: rgb(58, 58, 58);
+  color: #000080;
+
 }
 
 .wrapper {
