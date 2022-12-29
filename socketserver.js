@@ -10,7 +10,7 @@ require('./globals.js');
 module.exports = (io, app) => {
   io.on('connection', (socket) => {
     let windowID = socket;
-    socket.emit('wait', { "message": "Please wait...connecting you to stranger!"});
+    socket.emit('wait', { "message": "Please wait...connecting you to fellow lion. Roar!"});
     //push the user to avilable users list
       availableUsers.push(socket);
       let resolveAfter5Seconds = () => {
