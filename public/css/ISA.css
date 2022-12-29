@@ -1,0 +1,25 @@
+.ui.menu {
+  background-color: #2e455c;
+
+}
+.ui.header {
+  color: #ffffff
+
+}
+.head.user_text {
+  color: #ffffff
+
+}
+.raised.segment{
+
+  background-color: #2e455c;
+}
+.right.blue{
+  background-color: #2e455c;
+}
+#navy{
+  background-color: #2e455c!important;
+}
+#gold{
+  background-color: #d4af37!important;
+}
