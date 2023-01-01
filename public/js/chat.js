@@ -73,7 +73,7 @@
     if (socket.id != data.senderId) {
       if (data.typingStatus === true) {
         if (typeMessageShown === false) {
-          let template = `<div id="typing"><div class="toast-top-center" id="toast-container"><div class="toast msg_div grey" style="width:230px"><div class="toast-title white-text">Stranger typing . . .</div></div></div>`;
+          let template = `<div id="typing"><div class="toast-top-center" id="toast-container"><div class="toast msg_div grey" style="width:230px"><div class="toast-title white-text">Lion typing . . .</div></div></div>`;
           msgs.insertAdjacentHTML('beforeend', template);
           typeMessageShown = true;
         }
